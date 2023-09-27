@@ -1,6 +1,6 @@
+//https://leetcode.com/problems/intersection-of-two-arrays/
 
-
-class Solution1 {
+class Solution1 { //O(n2)
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
         vector<int>ans;
@@ -18,7 +18,7 @@ public:
         return ans;
     }
 };
-class Solution2 {
+class Solution2 { //O(nlogn)
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
         vector<int>ans;
@@ -43,7 +43,7 @@ public:
         return ans;
     }
 };
-class Solution {
+class Solution { //O(n)
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
         unordered_map<int, int>mp;
