@@ -1,6 +1,8 @@
 // https://practice.geeksforgeeks.org/problems/peak-element/1?page=1&difficulty[]=0&company[]=Adobe&sortBy=submissions
-#include<stdio.h>
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<map>
+#include<unordered_map>
 using namespace std;
 
 int checkPeak(int i , int arr[],int n){
