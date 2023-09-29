@@ -1,6 +1,10 @@
 // https://practice.geeksforgeeks.org/problems/anagram-1587115620/1?page=1&difficulty[]=0&company[]=Adobe&sortBy=submissions
 #include<stdio.h>
 #include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<map>
+#include<unordered_map>
 using namespace std;
 
 bool isAnagram(string a, string b){

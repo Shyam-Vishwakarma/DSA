@@ -1,5 +1,9 @@
 //https://leetcode.com/problems/intersection-of-two-arrays/
-
+#include<iostream>
+#include<vector>
+#include<map>
+#include<unordered_map>
+using namespace std;
 class Solution1 { //O(n2)
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {

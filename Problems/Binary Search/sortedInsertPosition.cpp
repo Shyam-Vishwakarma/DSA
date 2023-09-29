@@ -1,7 +1,10 @@
 //https://www.interviewbit.com/problems/sorted-insert-position/
 
 //https://www.interviewbit.com/problems/sorted-insert-position/
-
+#include<iostream>
+#include<vector>
+#include<map>
+#include<unordered_map>
 #include<iostream>
 #include<vector>
 using namespace std;

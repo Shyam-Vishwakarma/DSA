@@ -1,5 +1,9 @@
 // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
-
+#include<iostream>
+#include<vector>
+#include<map>
+#include<unordered_map>
+using namespace std;
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {

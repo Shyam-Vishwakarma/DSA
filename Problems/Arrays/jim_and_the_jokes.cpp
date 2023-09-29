@@ -2,6 +2,10 @@
 
 #include <bits/stdc++.h>
 #include <cmath>
+#include<iostream>
+#include<vector>
+#include<map>
+#include<unordered_map>
 using namespace std;
 
 int convertToDecimal(vector<int> v){
