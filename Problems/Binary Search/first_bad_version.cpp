@@ -2,11 +2,15 @@
 
 // The API isBadVersion is defined for you.
 // bool isBadVersion(int version);
+int isBadVersion(int k) {
+    /*some logic*/
+}
 #include<iostream>
 #include<vector>
 #include<map>
 #include<unordered_map>
 using namespace std;
+
 class Solution {
 public:
     int firstBadVersion(int n) {
