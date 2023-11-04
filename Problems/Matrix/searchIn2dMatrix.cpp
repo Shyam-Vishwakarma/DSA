@@ -122,7 +122,7 @@ public:
 };
 
 /*Solution6 - Make an 1D array of size mn and store the elements of matrix in the array, and now apply binary search on the array*/
-class Solution6 { //O(mn+logmn) time, O(mn) extra space
+class Solution { //O(mn+logmn) time, O(mn) extra space
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int m = matrix.size();
