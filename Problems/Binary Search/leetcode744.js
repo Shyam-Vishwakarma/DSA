@@ -3,13 +3,11 @@
  * @param {character} target
  * @return {character}
  */
-var nextGreatestLetter = function(letters, target) {
-    for (let i=0;i<letters.length;i++){
-        if (target <letters[i]){
-            return letters[i];
-        }
-
+var nextGreatestLetter = function (letters, target) {
+  for (let i = 0; i < letters.length; i++) {
+    if (target < letters[i]) {
+      return letters[i];
     }
-    return letters[0];
-    
+  }
+  return letters[0];
 };
